@@ -13,15 +13,15 @@ const routes = [
         meta: {
           title: '首頁'
         }
-      },
-      {
-        path: 'aboutme',
-        name: 'AboutMe',
-        component: () => import(/* webpackChunkName: "AboutMe" */ '@/views/AboutMe.vue'),
-        meta: {
-          title: '關於我'
-        }
       }
+      // {
+      //   path: 'aboutme',
+      //   name: 'AboutMe',
+      //   component: () => import(/* webpackChunkName: "AboutMe" */ '@/views/AboutMe.vue'),
+      //   meta: {
+      //     title: '關於我'
+      //   }
+      // }
     ]
   }
 ]
@@ -31,8 +31,8 @@ const router = createRouter({
   routes
 })
 
-router.afterEach((to, from) => {
-  document.title = to.meta.title
-})
+// router.afterEach((to, from) => {
+//   document.title = to.meta.title
+// })
 
 export default router
