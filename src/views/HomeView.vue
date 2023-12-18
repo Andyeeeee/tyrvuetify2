@@ -9,7 +9,7 @@
           {{ item.title }}
         </v-col>
       </v-row>
-      content
+      contente
     </v-container>
   </div>
 </template>
