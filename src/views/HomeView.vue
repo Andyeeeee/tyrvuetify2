@@ -11,12 +11,27 @@
     <!-- </v-row>
       contente
     </v-container> -->
-    <div style="display: flex;">
-      <v-btn append-icon="mdi-face-man"></v-btn>
-      <v-btn append-icon="mdi-book-open"></v-btn>
-      <v-btn append-icon="mdi-book-open-page-variant"></v-btn>
-      <v-btn append-icon="mdi-book-open-page-variant"></v-btn>
-      <v-btn append-icon="mdi-ski"></v-btn>
+    <div style="display: flex; text-align: center;justify-content: space-evenly;">
+      <div> <v-btn append-icon="mdi-face-man" />
+        <br>
+        <div>關於我</div>
+      </div>
+      <div> <v-btn append-icon="mdi-book-open" />
+        <br>
+        <div>我的作品</div>
+      </div>
+      <div> <v-btn append-icon="mdi-hubspot" />
+        <br>
+        <div>我的技能</div>
+      </div>
+      <div> <v-btn append-icon="mdi-book-open-page-variant" />
+        <br>
+        <div>學習歷程</div>
+      </div>
+      <div> <v-btn append-icon="mdi-ski" />
+        <br>
+        <div>我的經歷</div>
+      </div>
     </div>
   </div>
 </template>
