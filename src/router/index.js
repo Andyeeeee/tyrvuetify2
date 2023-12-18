@@ -8,7 +8,7 @@ const routes = [
     children: [
       {
         path: '',
-        name: 'Home',
+        // name: 'Home',
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
@@ -19,7 +19,7 @@ const routes = [
       },
       {
         path: 'aboutme',
-        name: 'Home',
+        // name: 'Home',
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
@@ -37,8 +37,8 @@ const router = createRouter({
   routes
 })
 
-router.afterEach((to, from) => {
-  document.title = to.meta.title
-})
+// router.afterEach((to, from) => {
+//   document.title = to.meta.title
+// })
 
 export default router
