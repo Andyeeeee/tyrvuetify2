@@ -1,7 +1,7 @@
 <template>
   <div id="HomeView">
     <v-container>
-      <v-row class="text-center">
+      <v-row>
         <v-col cols="12" sm="6" md="4" v-for="item in items" :key="item.to">
           <v-btn :title="item.title" :text="item.text" :icon="item.icon" :to="item.to">
           </v-btn>
