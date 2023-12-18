@@ -2,7 +2,7 @@
   <div id="HomeView">
     <v-container>
       <v-row>
-        <v-col v-for="item in items" :key="item.to">
+        <v-col v-for="item in items2" :key="item.to">
           <v-btn :title="item.title" :text="item.text" :icon="item.icon" :to="item.to">
           </v-btn>
           <br>
@@ -15,7 +15,7 @@
 </template>
 <script setup>
 import { computed } from 'vue'
-const items = computed(() => {
+const items2 = computed(() => {
   return [
     { to: 'aboutme', title: '關於我', icon: 'mdi-face-man', text: '關於我' },
     { to: 'aboutme', title: '我的作品', icon: 'mdi-book-open', text: '我的作品' },
