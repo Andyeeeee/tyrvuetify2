@@ -1,0 +1,1 @@
+import{V as o}from"./VContainer-60447571.js";import{V as a}from"./VRow-f22c4f1f.js";import{M as r,N as n,L as e,O as t,Q as s}from"./index-d02c1703.js";const c={id:"HomeView"},u={__name:"HomeView",setup(_){return(i,m)=>(r(),n("div",c,[e(o,null,{default:t(()=>[e(a,null,{default:t(()=>[s(" content ")]),_:1})]),_:1})]))}};export{u as default};
