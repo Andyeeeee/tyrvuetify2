@@ -2,12 +2,12 @@
   <div id="HomeView">
     <v-container>
       <v-row>
-        <v-col v-for="item in items2" :key="item.to">
-          <!-- <v-btn :title="item.title" :text="item.text" :icon="item.icon" :to="item.to">
+        <!-- <v-col v-for="item in items2" :key="item.to"> -->
+        <!-- <v-btn :title="item.title" :text="item.text" :icon="item.icon" :to="item.to">
           </v-btn> -->
-          <br>
-          <!-- {{ item.title }} -->
-        </v-col>
+        <br>
+        <!-- {{ item.title }} -->
+        <!-- </v-col> -->
       </v-row>
       contente
     </v-container>
