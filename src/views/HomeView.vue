@@ -1,16 +1,23 @@
 <template>
   <div id="HomeView">
-    <v-container>
-      <v-row>
-        <!-- <v-col v-for="item in items2" :key="item.to"> -->
-        <!-- <v-btn :title="item.title" :text="item.text" :icon="item.icon" :to="item.to">
+    <!-- <v-container>
+      <v-row> -->
+    <!-- <v-col v-for="item in items2" :key="item.to"> -->
+    <!-- <v-btn :title="item.title" :text="item.text" :icon="item.icon" :to="item.to">
           </v-btn> -->
-        <br>
-        <!-- {{ item.title }} -->
-        <!-- </v-col> -->
-      </v-row>
+    <!-- <br> -->
+    <!-- {{ item.title }} -->
+    <!-- </v-col> -->
+    <!-- </v-row>
       contente
-    </v-container>
+    </v-container> -->
+    <div style="display: flex;">
+      <v-btn append-icon="mdi-face-man"></v-btn>
+      <v-btn append-icon="mdi-book-open"></v-btn>
+      <v-btn append-icon="mdi-book-open-page-variant"></v-btn>
+      <v-btn append-icon="mdi-book-open-page-variant"></v-btn>
+      <v-btn append-icon="mdi-ski"></v-btn>
+    </div>
   </div>
 </template>
 <script setup>
