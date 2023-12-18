@@ -1,1 +1,0 @@
-import{V as e}from"./VContainer-eda6120c.js";import{M as t,N as o,L as a,O as r,Q as n}from"./index-c7011886.js";import"./tag-37d41170.js";const s={id:"HomeView"},l={__name:"HomeView",setup(c){return(i,_)=>(t(),o("div",s,[a(e,null,{default:r(()=>[n("content ")]),_:1})]))}};export{l as default};
