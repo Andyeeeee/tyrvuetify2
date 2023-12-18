@@ -2,14 +2,14 @@
   <div id="HomeView">
     <v-container>
       <v-row>
-        <v-col class="v-col-12 v-col-sm-6 v-col-lg-4">
-          <!-- <v-btn :title="item.title" :text="item.text" :icon="item.icon" :to="item.to">
+        <!-- <v-col class="v-col-12 v-col-sm-6 v-col-lg-4"> -->
+        <!-- <v-btn :title="item.title" :text="item.text" :icon="item.icon" :to="item.to">
           </v-btn>
           <br> -->
-          <!-- {{ item.title }} -->
-        </v-col>
+        <!-- {{ item.title }} -->
+        <!-- </v-col> -->
+        content
       </v-row>
-      content
     </v-container>
   </div>
 </template>
